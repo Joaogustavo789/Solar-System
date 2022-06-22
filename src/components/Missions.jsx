@@ -8,6 +8,7 @@ class Missions extends React.Component {
     return (
       <div>
         <div data-testid="missions"> </div>
+        <Title headline="Missões" />
         <div>
           {
             missions.map((el) => (
@@ -21,7 +22,6 @@ class Missions extends React.Component {
             ))
           }
         </div>
-        <Title headline="Missões" />
       </div>
     );
   }
