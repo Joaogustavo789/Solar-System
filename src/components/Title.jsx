@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/SistemaSolar.css';
 
 class Title extends React.Component {
   render() {
     const { headline } = this.props;
     return (
       <div>
-        <h2>{ headline }</h2>
+        <h2 className="title">{ headline }</h2>
       </div>
     );
   }

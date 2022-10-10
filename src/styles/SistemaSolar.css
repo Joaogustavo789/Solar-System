@@ -1,0 +1,139 @@
+.App {
+  background-image: url('../images/background.png');
+  margin: 0;
+}
+
+.header {
+  color: white;
+  height: 33px;
+  left: 351.35px;
+  text-align: center;
+  top: 4.16px;
+  width: 1300px;
+}
+
+.title {
+  color: white;
+  font-family: 'Epilogue';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  height: 60px;
+  left: 553px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  top: 444px;
+  width: 179px;
+}
+
+.planets {
+  height: 1600px;
+  left: -351.35px;
+  top: 4.16px;
+  width: 2236.35px;
+}
+
+.name-planet {
+  color: white;
+  font-family: 'Epilogue';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  height: 24px;
+  left: 24px;
+  line-height: 150%;
+  top: 722px;
+  width: 71px;
+}
+
+.cardPlanet {
+  box-shadow: inset 0 0 49px rgba(148, 144, 134, 0.8);
+  height: 100px;
+  left: 489px;
+  top: 518px;
+  width: 150px;
+}
+
+.missions {
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(241, 239, 239, 0.9);
+  height: 2276px;
+  left: 91px;
+  opacity: 0.1;
+  top: 899px;
+  width: 1098px;
+}
+
+.card-mission {
+  background: rgba(24, 26, 37, 0.5);
+  border: 2px solid white;
+  border-radius: 17px;
+  box-sizing: border-box;
+  height: 192px;
+  left: 134px;
+  mix-blend-mode: hard-light;
+  top: 1036px;
+  width: 496px;
+}
+
+.name-mission {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-family: 'Epilogue';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  height: 54px;
+  left: 161px;
+  line-height: 120%;
+  text-transform: uppercase;
+  top: 1063px;
+  width: 451px;
+}
+
+.year-mission {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-family: 'Epilogue';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: 44px;
+  left: 194px;
+  line-height: 120%;
+  top: 1161px;
+  width: 52px;
+}
+
+.country-mission {
+  display: flex;
+  height: 44px;
+  left: 296px;
+  top: 1161px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  align-items: center;
+  color: white;
+  width: 145px;
+}
+
+.destinationMi {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-family: 'Epilogue';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: 44px;
+  left: 485px;
+  line-height: 120%;
+  top: 1161px;
+  width: 136px;
+}
