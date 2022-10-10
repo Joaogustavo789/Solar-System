@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,100&family=Montserrat:ital,wght@1,300;1,400&family=Roboto+Condensed:wght@300&display=swap') ;
+
 .App {
   background-image: url('../images/background.png');
   margin: 0;
@@ -14,7 +16,7 @@
 
 .title {
   color: white;
-  font-family: 'Epilogue';
+  font-family: Epilogue , sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 300;
@@ -36,7 +38,7 @@
 
 .name-planet {
   color: white;
-  font-family: 'Epilogue';
+  font-family: Epilogue , sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -81,7 +83,7 @@
   align-items: center;
   color: white;
   display: flex;
-  font-family: 'Epilogue';
+  font-family: Epilogue , sans-serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 300;
@@ -97,7 +99,7 @@
   align-items: center;
   color: white;
   display: flex;
-  font-family: 'Epilogue';
+  font-family: Epilogue , sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -109,17 +111,17 @@
 }
 
 .country-mission {
-  display: flex;
-  height: 44px;
-  left: 296px;
-  top: 1161px;
-  font-family: 'Epilogue';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 120%;
   align-items: center;
   color: white;
+  display: flex;
+  font-family: Epilogue , sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: 44px;
+  left: 296px;
+  line-height: 120%;
+  top: 1161px;
   width: 145px;
 }
 
@@ -127,7 +129,7 @@
   align-items: center;
   color: white;
   display: flex;
-  font-family: 'Epilogue';
+  font-family: Epilogue , sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
