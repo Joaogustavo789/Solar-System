@@ -8,11 +8,11 @@ Solar System é uma aplicação na qual exibe planetas e missões através da co
 
 ### Instalação
 #### Primeiro é necessário fazer o clone do repositório para a sua máquina:
-```js
+```bash
 git clone git@github.com:Joaogustavo789/Solar-System.git
 ```
 #### Depois é preciso entrar no repositório clonado:
-```js
+```bash
 cd Solar-System
 ```
 #### Em seguida é necessário fazer a instalação das dependências do projeto:
