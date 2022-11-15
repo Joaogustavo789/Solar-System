@@ -2,12 +2,15 @@
 
 .App {
   background-image: url('../images/background.png');
-  margin: 0;
 }
 
 .header {
   color: white;
-  height: 33px;
+  font-family: Epilogue , sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  height: 50px;
   left: 351.35px;
   text-align: center;
   top: 4.16px;
@@ -19,14 +22,14 @@
   font-family: Epilogue , sans-serif;
   font-size: 40px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   height: 60px;
   left: 553px;
   line-height: 150%;
   text-align: center;
   text-transform: uppercase;
   top: 444px;
-  width: 179px;
+  width: 1200px;
 }
 
 .planets {
@@ -41,55 +44,53 @@
   font-family: Epilogue , sans-serif;
   font-size: 30px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   height: 24px;
   left: 24px;
-  line-height: 150%;
+  margin-left: 540px;
   top: 722px;
   width: 71px;
 }
 
 .cardPlanet {
-  box-shadow: inset 0 0 49px rgba(148, 144, 134, 0.8);
   height: 100px;
   left: 489px;
+  margin-left: 520px;
   top: 518px;
   width: 150px;
 }
 
 .missions {
-  border-radius: 30px;
-  box-shadow: 0 4px 14px rgba(241, 239, 239, 0.9);
-  height: 2276px;
+  border-radius: 10px;
+  height: 6200px;
   left: 91px;
-  opacity: 0.1;
   top: 899px;
   width: 1098px;
 }
 
 .card-mission {
+  align-items: center;
   background: rgba(24, 26, 37, 0.5);
   border: 2px solid white;
   border-radius: 17px;
   box-sizing: border-box;
-  height: 192px;
   left: 134px;
+  margin-left: 380px;
   mix-blend-mode: hard-light;
   top: 1036px;
-  width: 496px;
+  width: 500px;
 }
 
 .name-mission {
-  align-items: center;
   color: white;
-  display: flex;
   font-family: Epilogue , sans-serif;
-  font-size: 28px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   height: 54px;
   left: 161px;
   line-height: 120%;
+  margin-left: 160px;
   text-transform: uppercase;
   top: 1063px;
   width: 451px;
@@ -100,12 +101,13 @@
   color: white;
   display: flex;
   font-family: Epilogue , sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   height: 44px;
   left: 194px;
   line-height: 120%;
+  margin-left: 160px;
   top: 1161px;
   width: 52px;
 }
@@ -117,10 +119,11 @@
   font-family: Epilogue , sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   height: 44px;
   left: 296px;
   line-height: 120%;
+  margin-left: 160px;
   top: 1161px;
   width: 145px;
 }
@@ -132,10 +135,11 @@
   font-family: Epilogue , sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   height: 44px;
   left: 485px;
   line-height: 120%;
+  margin-left: 160px;
   top: 1161px;
   width: 136px;
 }
